@@ -1,4 +1,18 @@
-# docker-jenkins-integration-sample
+# Jenkins CI Deploy Docker example sample java application
 
-###### Docker [Playlist](https://www.youtube.com/watch?v=Tg2krHXHzBc&list=PLVz2XdJiJQxzMiFDnwxUDxmuZQU3igcBb).
-###### Jenkins [Playlist](https://www.youtube.com/watch?v=Nw3UohhcPO0&list=PLVz2XdJiJQxwS0BZUHX34ocLTJtRGSQzN).
+Java on Jenkins
+=====
+
+Maven on Jenkins
+======
+
+
+Jenkins
+=======
+
+1. Create job (FreeStyle Project) / Name: deploy
+2. General / Github project / Copy URL repository Github
+3. Option Source Code Management / Git 
+   > Repository URl: URL repository GIT and extension.
+4. Build Triggers / Poll SCM (es para programar la ejecucion de la tarea,. no colocamos nada)
+5. Build / Inovoke tareas de nivel superior maven
