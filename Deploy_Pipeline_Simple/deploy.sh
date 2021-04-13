@@ -4,7 +4,7 @@ echo "Validando repositorio GIT"
 
 cd /root 
 
-if [ -d "repotest" ]; then
+if [ -d "jenkinsci" ]; then
  echo "Ya se descargo el repo, continuamos"
 else 
  echo "Descargando repo"
